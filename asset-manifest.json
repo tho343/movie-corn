@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/movie-corn/static/css/main.2674b7d3.css",
+    "main.js": "/movie-corn/static/js/main.225f153d.js",
+    "static/js/787.f286e61e.chunk.js": "/movie-corn/static/js/787.f286e61e.chunk.js",
+    "static/media/sample-avatar.png": "/movie-corn/static/media/sample-avatar.41383f87c569a8a42f97.png",
+    "static/media/herobackground.png": "/movie-corn/static/media/herobackground.041824449f9102dff139.png",
+    "static/media/movie-poster-sample.png": "/movie-corn/static/media/movie-poster-sample.940a727b6d69457317bb.png",
+    "static/media/image_not_found.png": "/movie-corn/static/media/image_not_found.6e33a3c8cbe2cddf7375.png",
+    "index.html": "/movie-corn/index.html",
+    "main.2674b7d3.css.map": "/movie-corn/static/css/main.2674b7d3.css.map",
+    "main.225f153d.js.map": "/movie-corn/static/js/main.225f153d.js.map",
+    "787.f286e61e.chunk.js.map": "/movie-corn/static/js/787.f286e61e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2674b7d3.css",
+    "static/js/main.225f153d.js"
+  ]
+}
