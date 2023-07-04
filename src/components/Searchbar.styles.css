@@ -1,0 +1,30 @@
+#search-field{
+    padding: 16px 16px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.813);
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0, 0.035);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+
+}
+.search-form{
+    position: relative;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 60vw;
+
+}
+.submit-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+}
+.submit-btn>img{
+    width: 42px;
+    position: absolute;
+    transform: translate(-166%,-54%);
+
+}

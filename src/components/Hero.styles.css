@@ -1,0 +1,8 @@
+.hero-section{
+    padding: 137px 0px;
+    background-image: url("../assets/herobackground.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

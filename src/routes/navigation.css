@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 8px 47px;
+    justify-content: space-between;
+    height: 66px;
+}
+.nav-list{
+    display: flex;
+
+}
+.user-link{
+    height: 100%;
+}
+.user-avatar-container{
+    width:48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-avatar{
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.featured-movies-section{
+    padding: 32px;
+    background-color: black;
+    display: flex;
+    gap: 16px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 32px;
+}
+.secondary-btn{
+    background-color: transparent;
+    padding: 12px 16px;
+    border: 2px solid rgb(128, 3, 3);
+    color:rgb(175, 5, 5);
+    font-weight: 600;
+}
