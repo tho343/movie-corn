@@ -26,7 +26,7 @@ function App() {
       <Routes>
         <Route path="/movie-corn" element={<Navigaiton/>}>
           <Route index element={<Home/>}/>
-          <Route path="movie-route" element={<MovieRoute/>}/>
+          <Route path="/movie-corn/movie-route" element={<MovieRoute/>}/>
         </Route>
       </Routes>     
     </div>
