@@ -12,15 +12,13 @@ export default function Navigaiton() {
     <Fragment>
       <div className="navigation">
         <div className="logo">
-            <Link to="/"><img src={Logo}></img></Link>
+            <Link to="/movie-corn"><img src={Logo}></img></Link>
         </div>
         
         <div className="user-link">
                 <div className="user-avatar-container">
-                <img src={Avatar} className="user-avatar"></img>
-                </div>
-                
-            
+                <img src={Avatar} clsassName="user-avatar"></img>
+                </div>   
         </div>
         
     </div>
