@@ -2,6 +2,7 @@ import "./navigation.css"
 import React, { Fragment } from 'react'
 import Logo from "../assets/movie-logo.png"
 import Avatar from "../assets/sample-avatar.png"
+import PrimaryButton from "../components/PrimaryButton.component"
 import {
     BrowserRouter as Router,
     Link,
@@ -12,13 +13,18 @@ export default function Navigaiton() {
     <Fragment>
       <div className="navigation">
         <div className="logo">
-            <Link to="/movie-corn"><img src={Logo}></img></Link>
+            <Link to="/movie-corn"><img src={Logo} alt="logo movie corn"></img></Link>
         </div>
         
         <div className="user-link">
-                <div className="user-avatar-container">
-                <img src={Avatar} clsassName="user-avatar"></img>
-                </div>   
+                {/* <div className="user-avatar-container">
+                <img src={Avatar} alt="avatar" clsassName="user-avatar"></img>
+                </div>  */}
+                <div className="btn-container">
+                <button className='secondary-btn'>Log In</button>
+                {/* <button className='secondary-btn'>Sign Up</button> */}
+                </div>
+                
         </div>
         
     </div>
