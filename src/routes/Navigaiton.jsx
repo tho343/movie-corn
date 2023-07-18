@@ -21,7 +21,12 @@ export default function Navigaiton() {
                 <img src={Avatar} alt="avatar" clsassName="user-avatar"></img>
                 </div>  */}
                 <div className="btn-container">
-                <button className='secondary-btn'>Log In</button>
+                  <Link to="/log-in">
+                  <button className='secondary-btn'>
+                  Log In
+                  </button>
+                  </Link>
+                
                 {/* <button className='secondary-btn'>Sign Up</button> */}
                 </div>
                 

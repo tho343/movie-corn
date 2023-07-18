@@ -4,6 +4,7 @@ import Home from './routes/Home';
 import { MovieContext } from './context/MovieContext';
 import { Routes,Route } from 'react-router';
 import MovieRoute from './routes/movie-route';
+import LogIn from './routes/LogIn';
 
 function App() {
   const API_KEY = "d367c5b0";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/movie-corn" element={<Navigaiton/>}>
           <Route index element={<Home/>}/>
           <Route path="/movie-corn/movie-route" element={<MovieRoute/>}/>
+          <Route path="/movie-corn/log-in" element={<LogIn/>}/>
         </Route>
       </Routes>     
     </div>
